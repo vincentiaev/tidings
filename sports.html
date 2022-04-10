@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/69f54c2f23.js" crossorigin="anonymous"></script>
+    <title>Tidings</title>
+    <link rel = "icon" href = "image/icon.png" 
+        type = "image/x-icon">
+</head>
+<body>
+    <div class="top">
+        <div class="header">
+            <ul>
+                <li>
+                    <a href="index.html" class="tidings"><h1  style="font-weight:1000;font-size:30px;padding:20px;" id="tidings">tidings sports</h1></a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+                </li>
+                <li>
+                    <a href="news.html"><i class="fa-solid fa-newspaper"></i> News</a>
+                </li>
+                <li>
+                    <a href="sports.html" style="border-bottom: 3px solid black;"><i class="fa-solid fa-dumbbell"></i> Sports</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="side-content">
+            <div class="top-stories">
+                <h3 style="display: block;">Top Stories</h3>
+                <br>
+                <a href="sempat-ogah-bertemu-putin-zelensky-siap-dialog-lagi-dengan-rusia.html">
+                    <h4>Sempat Ogah Bertemu Putin, Zelensky Siap Dialog Lagi dengan Rusia</h4>
+                    <p>CNN Indonesia - 9 April 2022</p>
+                </a>
+                <a href="news.html" class="news-tag">News</a>
+                
+                <br><br>
+
+                <a href="jonathan-christie-gagal-juara-korea-open-2022.html">
+                    <h4>Jonathan Christie Gagal Juara Korea Open 2022</h4>
+                    <p>CNN Indonesia - 10 April 2022</p>
+                </a>
+                <a href="sports.html" class="sport-tag">Sports</a>
+                
+                <br><br>
+
+                <a href="marquez-melawan-ketidakpercayaan-diri-di-motogp-amerika.html">
+                    <h4>Marquez Melawan Ketidakpercayaan Diri di MotoGP Amerika</h4>
+                    <p>CNN Indonesia - 10 April 2022</p>
+                </a>
+                <a href="sports.html" class="sport-tag">Sports</a>
+
+                <br><br>
+
+                <a href="peningkatan-booster-jelang-mudik-naik-hingga-760-ribu-orang-per-hari.html">
+                    <h4>Peningkatan Booster Jelang Mudik Naik Hingga 760 Ribu Orang per Hari</h4>
+                    <p>CNN Indonesia - 8 April 2022 2022</p>
+                </a>
+                <a href="news.html" class="news-tag">News</a>
+                
+                <br><br>
+            </div>
+            <br>
+            <div class="votw">
+                <h3 style="display: block;">Photo of The Week</h3>
+                <br>
+                <img src="image/joham-zarco.jpeg" alt="" id="votw-pict">
+                <p class="caption-votw" id="caption-votw">Johann Zarco menjadi yang tercepat pada hari pertama MotoGP Amerika 2022 dengan Marc Marquez melakukan comeback yang impresif.</p>
+                <div class="votw-button">
+                    <button onclick="back()">
+                        Back
+                    </button>
+                    <button onclick="next()">
+                        Next
+                    </button>
+                </div>
+                
+            </div>
+        </div>
+        <div class="main-content" style="display: block;">
+            <h2>Badminton</h2>
+            <div class="card">
+                <div class="pict" style="width: 100%;">
+                    <a href="jonathan-christie-gagal-juara-korea-open-2022.html">
+                        <img src="image/jojo.jpeg" alt=" ">
+                    </a>
+                </div>
+                <div class="content" style="width: 100%;">
+                    <a href="jonathan-christie-gagal-juara-korea-open-2022.html">
+                        <h3>Jonathan Christie Gagal Juara Korea Open 2022</h3>
+                        <p>CNN Indonesia</p>
+                    </a>
+                </div>
+            </div>
+            
+            <h2>Sepakbola</h2>
+            <div class="card">
+                <div class="pict" style="width: 100%;">
+                    <a href="timnas-indonesia-u-19-kalah-1-5-lawan-pohang-steelers.html">
+                        <img src="image/timnas-u-19-.jpeg" alt=" ">
+                    </a>
+                </div>
+                <div class="content" style="width: 100%;">
+                    <a href="timnas-indonesia-u-19-kalah-1-5-lawan-pohang-steelers.html">
+                        <h3>Timnas Indonesia U-19 Kalah 1-5 Lawan Pohang Steelers</h3>
+                        <p>CNN Indonesia</p>
+                    </a>
+                </div>
+            </div>
+
+            <h2>MotoGP</h2>
+            <div class="card">
+                <div class="pict" style="width: 100%;">
+                    <a href="marquez-melawan-ketidakpercayaan-diri-di-motogp-amerika.html">
+                        <img src="image/marquez.jpeg" alt=" ">
+                    </a>
+                </div>
+                <div class="content" style="width: 100%;">
+                    <a href="marquez-melawan-ketidakpercayaan-diri-di-motogp-amerika.html">
+                        <h3>Marquez Melawan Ketidakpercayaan Diri di MotoGP Amerika</h3>
+                        <p>CNN Indonesia</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2>Contact Us</h2>
+        <form action="https://formspree.io/f/xknyvdyq" method="post" id="my-form">
+            <!--submitted form dikirim ke email pakai formspree-->
+            <div class="form-container">
+                <label for="name">Name</label>
+                <br>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-container">
+                <label for="email">Email</label>
+                <br>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-container">
+                <label for="message">Message</label>
+                <br>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="social-media">
+            <h2>Find us on</h2>
+            <ul>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <li><i class="fa-brands fa-facebook-f"></i>  tidings.id</li>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <li><i class="fa-brands fa-instagram"></i>  tidings.id</li>
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                    <li><i class="fa-brands fa-twitter"></i>  tidings.id</li>
+                </a>
+            </ul>
+        </div>
+        <p>All credit goes to CNN Indonesia and rightful owners</p>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
